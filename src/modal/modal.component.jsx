@@ -1,15 +1,15 @@
-import './modal.css';
-import Draggable from 'react-draggable';
-import { hoc } from '../utils';
-import { useModalProps } from './modal.props';
-import { Minimize } from './minimize';
-import React from 'react';
+import "./modal.css";
+import Draggable from "react-draggable";
+import { hoc } from "../utils";
+import { useModalProps } from "./modal.props";
+import { Minimize } from "./minimize";
+import React from "react";
 
-export const Modal = hoc(
+const Modal = hoc(
   useModalProps,
   ({
     children,
-    title = 'Modal title',
+    title = "Modal title",
     open = false,
     handleClose = () => {},
     draggable = false,
@@ -21,7 +21,7 @@ export const Modal = hoc(
     const modal = (
       <div
         className="modal-dialog"
-        style={{ display: open ? 'block' : 'none', maxWidth: '500px' }}
+        style={{ display: open ? "block" : "none", maxWidth: "500px" }}
       >
         <div className="modal-content">
           <div className="modal-header">
@@ -89,3 +89,5 @@ export const Modal = hoc(
     );
   }
 );
+
+export default Modal;
