@@ -1,6 +1,6 @@
 {
   "name": "modal-rc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Modal react",
   "description": "A modal component for React.js",
   "license": "MIT",
