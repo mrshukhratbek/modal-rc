@@ -4,8 +4,23 @@
 Modal component for React.js
 </div>
 
-## Contents
+## Installation
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Props](#props)
+```sh
+// with npm
+npm install modal-rc
+
+// with yarn
+yarn add modal-rc
+```
+
+## Usage
+
+```jsx
+import * as React from "react";
+import Modal from "modal-rc";
+
+function App() {
+  return <Modal>Content</Modal>;
+}
+```
