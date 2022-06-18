@@ -8,6 +8,14 @@
   "main": "lib/index.js",
   "browser": "lib/index.umd.js",
   "module": "lib/index.es.js",
+  "homepage": "https://github.com/mrshukhratbek/modal-rc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrshukhratbek/modal-rc"
+  },
+  "bugs": {
+    "url": "https://github.com/mrshukhratbek/modal-rc/issues"
+  },
   "scripts": {
     "start": "react-scripts start",
     "prepublishOnly": "rm -rf lib && npm run build",
