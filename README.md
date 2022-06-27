@@ -1,7 +1,7 @@
 <h1 align="center">Modal react</h1>
 
 <div align="center">
-Modal component for React.js
+Modal (draggable, minimizing, maximizing) component for React.js
 </div>
 
 ## Installation
