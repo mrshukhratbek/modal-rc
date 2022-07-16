@@ -4,10 +4,12 @@
 Modal (draggable, minimizing, maximizing) component for React.js
 </div>
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
 
-[npm-image]: http://img.shields.io/npm/v/antd.svg?style=flat-square
+[npm-image]: http://img.shields.io/npm/v/modal-rc.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/modal-rc
+[download-image]: https://img.shields.io/npm/dm/antd.svg?style=flat-square
+[download-url]: https://npmjs.org/package/modal-rc
 
 ## Installation
 
